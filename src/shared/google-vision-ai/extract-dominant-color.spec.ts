@@ -4,6 +4,8 @@
  * 기존에 color-thief, vibrant 등의 라이브러리를 사용했으나
  * 운영 환경에서 원하는 색상이 제대로 추출되지 않는 문제가 발생.
  * Claude에게 질문하며 직접 픽셀 분석 기반 색상 추출 로직을 구축함.
+ *
+ * @deprecated 현재는 Google Vision AI 사용으로 사용되지 않음.
  */
 
 import { createCanvas, loadImage } from 'canvas';
